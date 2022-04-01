@@ -1,0 +1,28 @@
+{
+    "name": "resa",
+    "version": "1.0.0",
+    "description": "Landing page for Resa",
+    "source": "index.html",
+    "browserslist": [
+        "defaults",
+        "not Explorer < 9",
+        "not dead"
+    ],
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "author": "Ali Farajzade",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/packager-raw-url": "2.4.1",
+        "@parcel/packager-xml": "2.4.1",
+        "@parcel/transformer-sass": "2.4.1",
+        "@parcel/transformer-webmanifest": "2.4.1",
+        "@parcel/transformer-xml": "2.4.1",
+        "autoprefixer": "^10.4.4",
+        "parcel": "^2.4.1",
+        "postcss": "^8.4",
+        "postcss-preset-env": "^7.4.3"
+    }
+}
